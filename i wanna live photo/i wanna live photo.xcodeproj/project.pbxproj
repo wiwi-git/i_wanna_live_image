@@ -13,6 +13,7 @@
 		1735658F2910FCE4006A34DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1735658E2910FCE4006A34DA /* Assets.xcassets */; };
 		173565922910FCE4006A34DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 173565902910FCE4006A34DA /* LaunchScreen.storyboard */; };
 		1735659A291104FE006A34DA /* LivePhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17356599291104FE006A34DA /* LivePhoto.swift */; };
+		1780114B291663C20078224E /* GIF2MP4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1780114A291663C20078224E /* GIF2MP4.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		173565912910FCE4006A34DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		173565932910FCE4006A34DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		17356599291104FE006A34DA /* LivePhoto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LivePhoto.swift; sourceTree = "<group>"; };
+		1780114A291663C20078224E /* GIF2MP4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GIF2MP4.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				173565902910FCE4006A34DA /* LaunchScreen.storyboard */,
 				173565932910FCE4006A34DA /* Info.plist */,
 				17356599291104FE006A34DA /* LivePhoto.swift */,
+				1780114A291663C20078224E /* GIF2MP4.swift */,
 			);
 			path = "i wanna live photo";
 			sourceTree = "<group>";
@@ -140,6 +143,7 @@
 				1735659A291104FE006A34DA /* LivePhoto.swift in Sources */,
 				1735658A2910FCE2006A34DA /* ViewController.swift in Sources */,
 				173565862910FCE2006A34DA /* AppDelegate.swift in Sources */,
+				1780114B291663C20078224E /* GIF2MP4.swift in Sources */,
 				173565882910FCE2006A34DA /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
