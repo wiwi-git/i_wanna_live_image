@@ -14,6 +14,21 @@ class LivePhoto {
         var pairedVideo: URL
     }
     
+    func requestPhotosPermission() -> PHAuthorizationStatus {
+        let photoStatus: PHAuthorizationStatus = PHPhotoLibrary.authorizationStatus()
+        
+        switch photoStatus {
+        case .notDetermined:
+            <#code#>
+        case .restricted:
+            <#code#>
+        case .denied: return .denied
+        case .authorized: return .authorized
+        case .limited:
+            <#code#>
+        }
+    }
+    
     var livePhotoResource: LivePhotoResources?
     
     func saveToLibrary(_ resource: LivePhotoResources) async throws -> Result<Bool, Error> {
